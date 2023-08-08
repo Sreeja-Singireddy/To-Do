@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>To-Do List</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>To-Do List</h1>
+    <div class="container">
+        <input type="text" id="taskInput" placeholder="Enter task">
+        <button onclick="addTask()">Add Task</button>
+    </div>
+    <br>
+    <br>
+    <div class="btns">
+        <button onclick="displayAll()">All</button>
+        <button onclick="displayPending()">Pending</button>
+        <button onclick="displayCompleted()">Completed</button>
+        
+    </div>
+
+    <ul id="taskList">
+    </ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
